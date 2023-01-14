@@ -1,7 +1,23 @@
+div {
+  /* for debuggin' */
+  border: 2px solid red;
+}
+
 ul {
   list-style-type: none;
 }
 
 li {
+  list-style: none;
+  display: inline;
+  padding: 16px;
+}
+
+a {
   text-decoration: none;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
 }
