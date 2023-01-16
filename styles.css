@@ -27,7 +27,7 @@ ul {
 li {
   list-style: none;
   display: inline;
-  padding: 16px;
+  padding: 12px;
 }
 
 a {
@@ -38,7 +38,7 @@ a {
 .nav-bar {
   display: flex;
   justify-content: space-around;
-  padding: 0px 50px;
+  padding: 0px 30px;
   margin-bottom: auto;
 }
 
@@ -121,6 +121,10 @@ button {
   justify-content: center;
   flex-direction: column;
   padding: 50px;
+}
+
+blockquote {
+  margin: 0px;
 }
 
 blockquote > p {
