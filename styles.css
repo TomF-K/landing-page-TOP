@@ -87,6 +87,11 @@ button {
   margin-bottom: 50px;
 }
 
+.img-placeholder > img {
+  height: 200px;
+  width: 400px;
+}
+
 .information-header {
   text-align: center;
   padding-top: 20px;
