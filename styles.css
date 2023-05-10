@@ -1,5 +1,23 @@
+:root {
+  --white: #ffffff;
+  --black: #0a0b0d;
+  --darkblue: #1f2937;
+  --red: #b50101;
+  --blue: #2485c9;
+  --sans: Martel sans, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--sans);
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -12,14 +30,13 @@ h2 {
   color: white;
 }
 
-.nav-bar,
-.flex-hero-top {
-  background-color: #1f2937;
+.nav-bar {
+  background-image: url(images/freebasstranscriptionsheader.png);
+  object-fit: cover;
 }
 
-div {
-  /* for debuggin' */
-  /*border: 2px solid red; */
+.flex-hero-top {
+  background-color: var(--darkblue);
 }
 
 ul {
@@ -35,8 +52,9 @@ li {
 a {
   text-decoration: none;
   color: #e5e7eb;
+  font-family: var(--sans);
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 200;
 }
 
 .nav-bar {
@@ -44,12 +62,12 @@ a {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
 }
 
 .nav-bar img {
   padding: 20px;
-  max-width: 180px;
+  max-width: 200px;
   align-self: flex-start;
 }
 
