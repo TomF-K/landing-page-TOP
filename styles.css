@@ -166,7 +166,7 @@ blockquote {
   margin: 0px;
 }
 
-blockquote > p {
+blockquote p {
   max-width: 600px;
   font-size: 36px;
   font-weight: 100;
@@ -182,34 +182,33 @@ blockquote > p {
   padding-bottom: 50px;
 }
 
-.call-to-action-wrapper {
+.cta-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.call-to-action-text {
+.cta {
   background-color: var(--blue);
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  max-width: 50%;
   color: var(--grey);
-  width: 600px;
-  padding: 20px 80px;
-  margin: 50px;
+  padding: 0.5rem 1rem;
+  margin: 2rem;
   border-radius: 8px;
 }
 
-.call-to-action-button {
+.cta-btn {
   border: 2px solid var(--grey);
-  display: flex;
   border-radius: 8px;
-  margin-top: -20px;
+  margin: 4rem;
 }
 
-.call-to-action-text > h2 {
-  margin-bottom: -10px;
+.cta h2 {
+  font-size: 2rem;
 }
 
 footer {
