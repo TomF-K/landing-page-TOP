@@ -177,6 +177,7 @@ blockquote p {
 .quote-author {
   align-self: flex-end;
   font-size: 24px;
+  color: var(--blue);
   font-weight: 600;
   margin-right: 300px;
   padding-bottom: 50px;
@@ -205,6 +206,10 @@ blockquote p {
   border: 2px solid var(--grey);
   border-radius: 8px;
   margin: 4rem;
+}
+
+.cta-btn:hover {
+  background-color: var(--darkblue);
 }
 
 .cta h2 {
