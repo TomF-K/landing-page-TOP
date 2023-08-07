@@ -113,9 +113,10 @@ button {
   margin-bottom: 50px;
 }
 
-.img-placeholder > img {
+.img-placeholder img {
   height: 200px;
   width: 400px;
+  border-radius: 5px;
 }
 
 .information-header {
