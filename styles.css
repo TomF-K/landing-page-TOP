@@ -237,6 +237,12 @@ footer {
   height: 100px;
 }
 
+@media (max-width: 600px) {
+  .thumbnail-container {
+    border: 2px solid red;
+  }
+}
+
 @media (max-width: 940px) {
   .hero-text {
     order: 2;
