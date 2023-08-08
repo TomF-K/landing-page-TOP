@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Inspiration&family=Martel+Sans:wght@200;300;400;600&family=Tangerine:wght@700&display=swap" />
     <link rel="stylesheet" href="styles.css" />
     <title>Landing Page</title>
   </head>
   <body>
-    <header class="nav-bar"><img src="images/Logo-White-Resize.png" />
+    <header class="nav-bar"><img src="/images/cropped-logo-png.png" />
     <nav>
         <ul>
             <li><a href=>real lesson excerpts</a></li>
@@ -17,13 +18,13 @@
         </ul>
     </nav></header>
     <main class="flex-hero-top">
+       <div class="img-placeholder"><img src="https://freebasstranscriptions.com/wp-content/uploads/2020/03/Pbass-black-strings-1.jpg"/></div>
       <div class="hero-text">
         <h1>Online bass lessons tailored to you.</h1>
-        <p>Interested in getting closer to your unique musical goals? 
+        <p>Interested in getting closer to your musical goals? 
         </p>
-        <button>Sign Up</button>
+        <button class="btn hero-btn" >Find out more</button>
         </div>
-        <div class="img-placeholder"><img src="https://freebasstranscriptions.com/wp-content/uploads/2020/03/Pbass-black-strings-1.jpg"/></div>
     </main>
     <div class="information-header"><h1 class="thumbnail-header">develop your musicianship</h1></div>
     <article class="thumbnail-container">
@@ -44,19 +45,18 @@
       <div class="description">Learn to read and write music fluently</div>
       </div>
     </article>
+    <script src="./app.js"></script>
     <blockquote class="quote-container">
         <p><em>"Despite having played for 15 years my lessons with Tom provided me with new ways of approaching the instrument."</em></p>
       <div class="quote-author">
       <figcaption>-Erik P, MA</figcaption>
       </div>
     </blockquote>
-    <div class="call-to-action-wrapper">
-      <div class="call-to-action-text">
-        <h2 id="signup-header">Book your FREE consultation now!</h2>
+    <div class="cta-wrapper">
+      <div class="cta">
+        <h2 id="cta-header">Book your FREE consultation now!</h2>
       <p>Sign up for whatever this is by smashing that button right there!</p>
-      <div class="call-to-action-button">
-    <button>Sign up</button>
-    </div>
+    <button class="btn cta-btn">Sign up</button>
   </div>
     </div>
     <footer>Copyright Free Bass Transcriptions 2023</footer>
