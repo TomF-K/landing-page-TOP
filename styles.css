@@ -31,13 +31,11 @@ h2 {
   color: white;
 }
 
+/* Header & nav bar styling */
+
 .nav-bar {
   background-image: url(images/freebasstranscriptionsheader.png);
   object-fit: cover;
-}
-
-.flex-hero-top {
-  background-color: var(--darkblue);
 }
 
 ul {
@@ -76,7 +74,10 @@ a {
   padding-right: 40px;
 }
 
+/* Hero section styling */
+
 .flex-hero-top {
+  background-color: var(--darkblue);
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -92,23 +93,6 @@ a {
   margin-bottom: 50px;
   color: #e5e7eb;
   order: 1;
-}
-
-button {
-  border-radius: 8px;
-  border: none;
-  color: var(--white);
-  font-weight: 400;
-  padding: 8px 24px;
-  background-color: var(--blue);
-}
-
-button:hover {
-  opacity: 0.7;
-}
-
-button a {
-  color: var(--white);
 }
 
 .img-placeholder {
@@ -127,6 +111,27 @@ button a {
   width: 100%;
   border-radius: 5px;
 }
+
+/* general button styling */
+
+button {
+  border-radius: 8px;
+  border: none;
+  color: var(--white);
+  font-weight: 400;
+  padding: 8px 24px;
+  background-color: var(--blue);
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button a {
+  color: var(--white);
+}
+
+/* Thumbnail section styling */
 
 .information-header {
   text-align: center;
@@ -163,6 +168,8 @@ button a {
   text-align: center;
 }
 
+/* Testimonial styling */
+
 .quote-container {
   background-color: var(--grey);
   display: flex;
@@ -192,6 +199,8 @@ blockquote p {
   margin-right: 300px;
   padding-bottom: 50px;
 }
+
+/* CTA styling */
 
 .cta-wrapper {
   display: flex;
@@ -232,6 +241,8 @@ blockquote p {
   margin: 0;
 }
 
+/* Footer styling */
+
 footer {
   background-color: var(--darkblue);
   display: flex;
@@ -242,6 +253,8 @@ footer {
   color: var(--grey);
   height: 100px;
 }
+
+/* Mobile, tablet, desktop styling */
 
 @media (max-width: 600px) {
   .thumbnail-container {
