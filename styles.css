@@ -258,7 +258,17 @@ footer {
 
 @media (max-width: 600px) {
   .thumbnail-container {
-    border: 2px solid red;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .thumbnail {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  .description {
+    margin: 0 auto;
+    width: 70%;
   }
 }
 
