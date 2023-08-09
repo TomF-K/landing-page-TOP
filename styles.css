@@ -170,13 +170,12 @@ button a {
 
 /* Testimonial styling */
 
-.quote-container {
+.testimonial {
   background-color: var(--grey);
   display: flex;
-  align-items: center;
+  flex-flow: row wrap;
   justify-content: center;
-  flex-direction: column;
-  padding: 50px;
+  padding: 4rem;
 }
 
 blockquote {
@@ -188,15 +187,13 @@ blockquote p {
   font-size: 36px;
   font-weight: 100;
   color: var(--black);
-  margin-bottom: 0px;
 }
 
-.quote-author {
+.author {
   align-self: flex-end;
   font-size: 24px;
   color: var(--blue);
   font-weight: 600;
-  margin-right: 300px;
   padding-bottom: 50px;
 }
 
@@ -270,8 +267,10 @@ footer {
     margin: 0 auto;
     width: 70%;
   }
+  .author {
+    border: 2px solid red;
+  }
 }
-
 @media (max-width: 940px) {
   .hero-text {
     order: 2;
