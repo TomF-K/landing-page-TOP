@@ -189,6 +189,11 @@ blockquote p {
   color: var(--black);
 }
 
+.fa-solid {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
 .author {
   align-self: flex-end;
   font-size: 24px;
