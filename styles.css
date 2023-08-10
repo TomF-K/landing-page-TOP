@@ -253,6 +253,8 @@ footer {
 
 /* Mobile, tablet, desktop styling */
 
+/* TODO fix nav a at <600px */
+
 @media (max-width: 600px) {
   .thumbnail-container {
     flex-flow: column nowrap;
