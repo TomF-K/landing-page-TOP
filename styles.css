@@ -194,12 +194,14 @@ blockquote p {
   padding: 1rem;
 }
 
-.author {
+.author,
+.location {
   align-self: flex-end;
   font-size: 24px;
   color: var(--blue);
   font-weight: 600;
-  padding-bottom: 50px;
+  padding: 1rem;
+  margin-bottom: 2rem;
 }
 
 .button-container {
