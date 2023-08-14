@@ -189,13 +189,14 @@ blockquote p {
   color: var(--black);
 }
 
-.fa-solid {
-  font-size: 1.5rem;
-  padding: 1rem;
+.fa {
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 .author,
-.location {
+.hometown {
   align-self: flex-end;
   font-size: 24px;
   color: var(--blue);
