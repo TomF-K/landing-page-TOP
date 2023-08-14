@@ -52,4 +52,29 @@ window.addEventListener("DOMContentLoaded", function () {
   testimonial.textContent = item.text;
 });
 
+// show student based on currentItem value
+
+function showPerson(person) {
+  const item = reviews[person];
+  student.textContent = item.student;
+  hometown.textContent = item.hometown;
+  testimonial.textContent = item.text;
+}
+
 // add event listeners for button clicks
+
+prevBtn.addEventListener("click", function () {
+  currentItem--;
+  if (currentItem == 0) {
+    currentItem = reviews.length - 1;
+  }
+  showPerson(currentItem);
+});
+
+nextBtn.addEventListener("click", function () {
+  currentItem++;
+  if (currentItem > reviews.length - 1) {
+    currentItem = 0;
+  }
+  showPerson(currentItem);
+});
