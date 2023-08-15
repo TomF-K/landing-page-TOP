@@ -10,13 +10,13 @@ const reviews = [
     id: 2,
     student: "Stew B",
     hometown: "(Somerset, UK)",
-    text: "I'm now entering my fifth block of lessons (six lessons per block) and the transformation in my understanding of my instrument, my style of play and my ability to read and write music is little short of miraculous. Tom understands what makes me tick as a person and communicates with such precision, humility and skill that he makes the learning fun and the progression seamless.",
+    text: "The transformation in my understanding of my instrument, my style of playing and my ability to read and write music is little short of miraculous. Tom understands what makes me tick as a person and communicates with such precision, humility and skill that he makes the learning fun and the progression seamless.",
   },
   {
     id: 3,
     student: "Jeff N",
     hometown: "(MA, USA)",
-    text: "It's been a while and I've been meaning to email you to let me know how much I appreciate you. So grateful that I found you at a really important time ... my bass guitar formative period. You gave me exactly what was needed! Particularly the left hand fingering thought process. Also in retrospect I even found our dialogue regarding right hand spot on; You were very considerate of my situation and context, and told me how you go about various techniques, while explaining various options.",
+    text: "It's been a while and I've been meaning to email you to let me know how much I appreciate you... You gave me exactly what was needed! Particularly the left hand fingering thought process. You were very considerate of my situation and context, and told me how you go about various techniques, while explaining various options.",
   },
   {
     id: 4,
