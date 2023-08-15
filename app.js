@@ -28,7 +28,7 @@ const reviews = [
     id: 5,
     student: "Alex B",
     hometown: "(Oxfordshire, UK)",
-    text: "It really is difficult to fault Toms teaching in any way -- he was extremely professional and friendly in our lessons, he had a great audio/video setup, he prepared and shared .pdf files for the lessons with personalised content on whatever i was working on at the time, and also made notes after the lesson so I would know what I should work on in between.",
+    text: "It really is difficult to fault Toms teaching in any way -- he was extremely professional and friendly in our lessons, he had a great audio/video setup, he prepared and shared .pdf files for the lessons with personalised content on whatever I was working on at the time, and also made notes after the lesson so I would know what I should work on in between.",
   },
 ];
 
