@@ -33,7 +33,7 @@ const reviews = [
 ];
 
 // target elements
-const student = document.querySelector(".author");
+const author = document.querySelector(".author");
 const hometown = document.querySelector(".hometown");
 const testimonial = document.querySelector(".testimonial-text");
 
@@ -47,7 +47,7 @@ let currentItem = 0;
 // load starting item
 window.addEventListener("DOMContentLoaded", function () {
   const item = reviews[currentItem];
-  student.textContent = item.student;
+  author.textContent = item.student;
   hometown.textContent = item.hometown;
   testimonial.textContent = item.text;
 });
@@ -56,7 +56,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 function showPerson(person) {
   const item = reviews[person];
-  student.textContent = item.student;
+  author.textContent = item.student;
   hometown.textContent = item.hometown;
   testimonial.textContent = item.text;
 }
